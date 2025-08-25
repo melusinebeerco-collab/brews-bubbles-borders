@@ -14,7 +14,7 @@
     }
 
     header {
-      padding: 80px 20px 40px;
+      padding: 80px 20px 30px;
     }
 
     h1 {
@@ -23,16 +23,37 @@
       color: #007acc;
     }
 
-    p {
+    p.description {
       max-width: 700px;
-      margin: 0 auto;
+      margin: 0 auto 30px;
       font-size: 1.2em;
       line-height: 1.6;
       padding: 0 20px;
     }
 
+    .nav-buttons {
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+
+    .nav-buttons a {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      margin: 8px;
+      border-radius: 5px;
+      font-size: 1em;
+      transition: background-color 0.3s;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #333;
+    }
+
     footer {
-      margin-top: 60px;
+      margin-top: 40px;
       padding: 20px;
       background-color: #f2f2f2;
       font-size: 0.9em;
@@ -44,14 +65,25 @@
 
   <header>
     <h1>Brews, Bubbles & Borders</h1>
-    <p>
-      Brews, Bubbles, & Borders is my personal journal of exploration and experiencing culture — from crafting homebrewed beers, to scuba diving beneath the waves, to traveling across borders near and far. It’s a collection of stories, passions, and curious adventures.
+    <p class="description">
+      Brews, Bubbles & Borders is my personal journal of exploration and experiencing culture — from crafting homebrewed beers, to scuba diving beneath the waves, to traveling across borders near and far. It’s a collection of stories, passions, and curious adventures.
     </p>
+
+    <div class="nav-buttons">
+      <a href="homebrewing.html">HOMEBREWING</a>
+      <a href="scuba.html">SCUBA</a>
+      <a href="rv-camping.html">RV-CAMPING</a>
+      <a href="sxs.html">SXS</a>
+    </div>
   </header>
 
   <footer>
-    &copy; 2025 Jeremy Boucher. All rights reserved.
+    &copy; 2025 Jeremy B. All rights reserved.
   </footer>
+
+</body>
+</html>
+
 
 </body>
 </html>
