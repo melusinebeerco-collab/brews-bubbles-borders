@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-color: #e6f2ff; /* light blue */
+      background-color: #e6f2ff;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -35,6 +35,25 @@
       font-size: 1.2em;
     }
 
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
     a.back-link {
       display: inline-block;
       margin-top: 40px;
@@ -60,7 +79,7 @@
     }
 
     .social-links a {
-      color: #3b5998; /* Facebook blue */
+      color: #3b5998;
       text-decoration: none;
       font-weight: bold;
     }
@@ -79,6 +98,59 @@
 
   <div class="content">
     <p>Welcome to the Homebrewing section. More content coming soon!</p>
+
+    <div class="gallery">
+      <!-- 42 images -->
+      <!-- You can change the extension to .png or .jpeg if needed -->
+      <!-- These assume image files are in images/ and named 1.jpg to 42.jpg -->
+      <!-- BEGIN IMAGES -->
+      <!-- You can generate these quickly with a code loop, but here’s static HTML -->
+      <!-- Start -->
+      <img src="images/1.jpg" alt="Brew 1">
+      <img src="images/2.jpg" alt="Brew 2">
+      <img src="images/3.jpg" alt="Brew 3">
+      <img src="images/4.jpg" alt="Brew 4">
+      <img src="images/5.jpg" alt="Brew 5">
+      <img src="images/6.jpg" alt="Brew 6">
+      <img src="images/7.jpg" alt="Brew 7">
+      <img src="images/8.jpg" alt="Brew 8">
+      <img src="images/9.jpg" alt="Brew 9">
+      <img src="images/10.jpg" alt="Brew 10">
+      <img src="images/11.jpg" alt="Brew 11">
+      <img src="images/12.jpg" alt="Brew 12">
+      <img src="images/13.jpg" alt="Brew 13">
+      <img src="images/14.jpg" alt="Brew 14">
+      <img src="images/15.jpg" alt="Brew 15">
+      <img src="images/16.jpg" alt="Brew 16">
+      <img src="images/17.jpg" alt="Brew 17">
+      <img src="images/18.jpg" alt="Brew 18">
+      <img src="images/19.jpg" alt="Brew 19">
+      <img src="images/20.jpg" alt="Brew 20">
+      <img src="images/21.jpg" alt="Brew 21">
+      <img src="images/22.jpg" alt="Brew 22">
+      <img src="images/23.jpg" alt="Brew 23">
+      <img src="images/24.jpg" alt="Brew 24">
+      <img src="images/25.jpg" alt="Brew 25">
+      <img src="images/26.jpg" alt="Brew 26">
+      <img src="images/27.jpg" alt="Brew 27">
+      <img src="images/28.jpg" alt="Brew 28">
+      <img src="images/29.jpg" alt="Brew 29">
+      <img src="images/30.jpg" alt="Brew 30">
+      <img src="images/31.jpg" alt="Brew 31">
+      <img src="images/32.jpg" alt="Brew 32">
+      <img src="images/33.jpg" alt="Brew 33">
+      <img src="images/34.jpg" alt="Brew 34">
+      <img src="images/35.jpg" alt="Brew 35">
+      <img src="images/36.jpg" alt="Brew 36">
+      <img src="images/37.jpg" alt="Brew 37">
+      <img src="images/38.jpg" alt="Brew 38">
+      <img src="images/39.jpg" alt="Brew 39">
+      <img src="images/40.jpg" alt="Brew 40">
+      <img src="images/41.jpg" alt="Brew 41">
+      <img src="images/42.jpg" alt="Brew 42">
+      <!-- End -->
+    </div>
+
     <a href="index.html" class="back-link">← Back to Main Page</a>
   </div>
 
